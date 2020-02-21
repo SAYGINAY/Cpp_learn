@@ -1,8 +1,0 @@
-Although it is not extremely important to know exactly how a function call is implemented
-on a microprocessor level, you might find it interesting. Understanding this helps
-you understand why C++ gives you the option of programming INLINE functions, which
-are explained later in this section.
-
-A function call essentially means that the microprocessor jumps to executing the next
-instruction belonging to the called function at a nonsequential memory location. After it
-is done with executing the instructions in the function, it returns to where it left off
